@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--导航栏颜色-->
+    <attr name="toolbarBg" format="color"/>
+
+    <!--内容字体三种颜色(除特殊字体以外的字体)-->
+    <attr name="textColor" format="color"/>
+    <attr name="textColor_1" format="color"/>
+    <attr name="textColor_2" format="color"/>
+
+    <!--线条颜色-->
+    <attr name="lineColor" format="color"/>
+
+    <!--行点击效果-->
+    <attr name="layoutSelected" format="reference"/>
+
+    <!--底部导航栏button样式-->
+    <attr name="navButtonStyle" format="reference"/>
+</resources>

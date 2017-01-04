@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="toolbar" type="id" />
+<!--    <item name="button_state1" type="id" />
+    <item name="button_state2" type="id" />
+    <item name="button_state3" type="id" />
+    <item name="button_state4" type="id" />-->
+</resources>

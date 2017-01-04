@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/data_fail_tv"
+        android:text="数据加载失败,点击再次加载"
+        android:textSize="@dimen/textSize_16"
+        android:gravity="center"
+        android:textColor="?attr/textColor"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <TextView
+        android:id="@+id/data_empty_tv"
+        android:layout_width="match_parent"
+        android:visibility="gone"
+        android:text="数据为空"
+        android:textColor="?attr/textColor"
+        android:textSize="@dimen/textSize_16"
+        android:gravity="center"
+        android:layout_height="match_parent"/>
+
+    <TextView
+        android:id="@+id/data_error_tv"
+        android:layout_width="match_parent"
+        android:visibility="gone"
+        android:text="数据加载失败"
+        android:textColor="?attr/textColor"
+        android:textSize="@dimen/textSize_16"
+        android:gravity="center"
+        android:layout_height="match_parent"/>
+</LinearLayout>

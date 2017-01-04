@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:gravity="center_vertical"
+              android:background="?attr/layoutSelected"
+              android:layout_height="50dp">
+<TextView
+    android:layout_width="wrap_content"
+    android:text="item1"
+    android:layout_marginLeft="10dp"
+    android:textColor="?attr/textColor"
+    android:textSize="@dimen/textSize_16"
+    android:id="@+id/recycler_item_tv_id"
+    android:layout_height="wrap_content"/>
+
+    <Button
+        android:text="按钮"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/textSize_16"
+        android:textColor="?attr/textColor"
+        android:id="@+id/recycler_item_bt_id"/>
+
+</LinearLayout>

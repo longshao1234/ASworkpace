@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="PromptDialogStyle" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <!-- 边框 -->
+        <item name="android:windowIsFloating">true</item>
+        <!-- 是否浮现在activity之上 -->
+        <item name="android:windowIsTranslucent">false</item>
+        <!-- 半透明 -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- 无标题 -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <!--lib中白天样式-->
+    <style name="longshaolib" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="navButtonStyle">@style/navButtonStyleWihte</item><!--底部button样式-->
+        <item name="toolbarBg">@color/toolbarBackgroud</item><!--导航栏样色值-->
+        <item name="android:windowBackground">@color/contentbg</item><!--内容背景颜色-->
+
+        <!--设置字体颜色三种等级-->
+        <item name="textColor">@color/textColorWhite</item>
+        <item name="textColor_1">@color/textColorWhite_1</item>
+        <item name="textColor_2">@color/textColorWhite_2</item>
+
+        <!--线条分割线颜色-->
+        <item name="lineColor">@color/lineWhite</item>
+
+        <!--行的点击效果-->
+        <item name="layoutSelected">@drawable/layout_selected_white</item>
+    </style>
+
+    <!--lib中夜间样式-->
+    <style name="longshaolib.black" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="navButtonStyle">@style/navButtonStyleBlack</item><!--底部button样式-->
+        <item name="toolbarBg">@color/toolbarBackgroudBlack</item><!--导航栏样色值-->
+        <item name="android:windowBackground">@color/contentblackbg</item><!--内容背景颜色-->
+
+        <!--设置字体颜色三种等级-->
+        <item name="textColor">@color/textColorBlack</item>
+        <item name="textColor_1">@color/textColorBlack_1</item>
+        <item name="textColor_2">@color/textColorBlack_2</item>
+
+        <!--线条分割线颜色-->
+        <item name="lineColor">@color/lineBlack</item>
+
+        <!--行的点击效果-->
+        <item name="layoutSelected">@drawable/layout_selected_black</item>
+    </style>
+
+    <!--nav底部导航栏的样式-->
+    <style name="navButtonStyleWihte">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@null</item>
+        <item name="android:button">@null</item>
+        <item name="android:drawablePadding">0dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingBottom">2dp</item>
+        <item name="android:paddingTop">2dp</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:textColor">@drawable/text_service_color</item>
+        <item name="android:text"></item>
+        <item name="android:textSize">@dimen/textSize_14</item>
+    </style>
+    <style name="navButtonStyleBlack">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@null</item>
+        <item name="android:button">@null</item>
+        <item name="android:drawablePadding">0dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingBottom">2dp</item>
+        <item name="android:paddingTop">2dp</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:textColor">@drawable/text_service_color_black</item>
+        <item name="android:text"></item>
+        <item name="android:textSize">@dimen/textSize_14</item>
+    </style>
+
+    <!-- toolbar样式 -->
+    <style name="toolbarStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:background">?attr/toolbarBg</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="android:theme">@style/Theme.AppCompat.Light.NoActionBar</item>
+    </style>
+</resources>

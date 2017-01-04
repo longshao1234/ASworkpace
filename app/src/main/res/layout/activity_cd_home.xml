@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_cd_home"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.like.longshao.activity.CdHomeActivity">
+
+    <android.support.v4.widget.DrawerLayout
+        android:id="@+id/home_draw"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:id="@+id/content_frame"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <ListView
+            android:layout_width="160dp"
+            android:layout_gravity="start"
+            android:id="@+id/left_view"
+            android:dividerHeight="0dp"
+            android:background="@android:color/white"
+            android:choiceMode="singleChoice"
+            android:layout_height="match_parent"/>
+    </android.support.v4.widget.DrawerLayout>
+
+</LinearLayout>

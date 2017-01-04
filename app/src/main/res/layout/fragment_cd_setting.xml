@@ -1,0 +1,82 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+              android:orientation="vertical"
+             tools:context="com.like.longshao.fragment.CdSettingFragment">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:background="?attr/lineColor"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            style="@style/layout_style">
+
+            <TextView
+                android:text="切换主页"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/textSize_16"
+                android:layout_alignParentLeft="true"
+                android:textColor="?attr/textColor"
+                android:layout_marginLeft="10dp"/>
+
+            <Spinner
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner"
+                android:background="@null"
+                android:entries="@array/set_page"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="0dp"/>
+        </RelativeLayout>
+        <RelativeLayout
+            style="@style/layout_style">
+
+            <TextView
+                android:text="是否展示引导页"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textSize="@dimen/textSize_16"
+                android:gravity="center"
+                android:layout_alignParentLeft="true"
+                android:textColor="?attr/textColor"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:id="@+id/isShowGuide_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="展示"
+                android:gravity="center"
+                android:textSize="@dimen/textSize_16"
+                android:textColor="?attr/textColor_1"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            style="@style/layout_style">
+
+            <TextView
+                android:text="是否切换主题"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/textSize_16"
+                android:layout_alignParentLeft="true"
+                android:textColor="?attr/textColor"
+                android:layout_marginLeft="10dp"/>
+
+            <Spinner
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/isChangeTheme_sp"
+                android:entries="@array/set_theme"
+                android:background="@null"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="0dp"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

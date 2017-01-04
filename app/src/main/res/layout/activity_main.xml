@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="获取网络数据"/>
+
+    <Button
+        android:text="返回"
+        android:onClick="back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView android:id="@+id/textview"
+              android:text="我草草 ，好神奇"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"/>
+
+    <View
+        android:id="@+id/theView"
+        android:layout_width="100dp"
+        android:background="#AAA"
+        android:layout_height="100dp"/>
+
+    <ListView android:id="@+id/listview"
+              android:layout_width="match_parent"
+              android:layout_height="0dp"/>
+    <ImageView
+        android:id="@+id/image"
+        android:contentDescription="逗比"
+        android:layout_width="100dp"
+        android:layout_height="100dp"/>
+</LinearLayout>

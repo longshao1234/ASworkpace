@@ -1,0 +1,47 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.0" >
+
+        <Button
+            android:id="@+id/button_state1"
+            style="?attr/navButtonStyle"
+            android:tag="home" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.0" >
+
+        <Button
+            android:id="@+id/button_state2"
+            style="?attr/navButtonStyle"
+            android:tag="sort" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.0" >
+
+        <Button
+            android:id="@+id/button_state3"
+            style="?attr/navButtonStyle"
+            android:tag="cart" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.0" >
+
+        <Button
+            android:id="@+id/button_state4"
+            style="?attr/navButtonStyle"
+            android:tag="center" />
+    </FrameLayout>
+
+</merge>
